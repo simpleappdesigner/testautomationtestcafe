@@ -1,6 +1,6 @@
 {
     "browsers": "chrome",
-    "src": ["node_modules/testcafe-cucumber-steps/index.js", "tests/**/*.js", "tests/**/*.featureignore","features/**/*.js","features/**/*.feature"],
+    "src": [ "tests/**/*.js", "tests/**/*.featureignore","features/**/*.js","features/**/*.feature"],
     "screenshots": {
         "path": "tests/screenshots/",
         "takeOnFails": true,

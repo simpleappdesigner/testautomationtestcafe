@@ -14,3 +14,13 @@ So this need to be defined in .testcaferc.json.<br>
     3. to view report install `npm install -g allure-commandline -D` and then run 
         1. create report `npx allure generate allure/allure-results --clean -o allure/allure-report`
         2. view report `npx allure open allure/allure-report`
+
+
+Get Started! (git and Node installed in the system)
+
+1. `mkdir  testautomationtestcafe`
+2. `cd testautomationtestcafe`    
+3. `git clone https://github.com/simpleappdesigner/testautomationtestcafe.git`
+4. `npm install`
+5. `npx gherkin-testcafe` or with slow speed `npx gherkin-testcafe --speed 0.1`
+or record video `npx gherkin-testcafe --speed 0.1 --video reports/screen-captures --video-options singleFile=true`

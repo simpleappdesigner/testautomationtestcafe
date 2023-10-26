@@ -3,3 +3,4 @@ allure
 tests
 *private*
 .vscode
+reports
