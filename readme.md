@@ -24,3 +24,7 @@ Get Started! (git and Node installed in the system)
 4. `npm install`
 5. `npx gherkin-testcafe` or with slow speed `npx gherkin-testcafe --speed 0.1`
 or record video `npx gherkin-testcafe --speed 0.1 --video reports/screen-captures --video-options singleFile=true`
+6. allure reports:
+    1. `npx gherkin-testcafe --reporter allure`
+    2. `npx allure generate allure/allure-results --clean -o allure/allure-report`
+    3. `npx allure open allure/allure-report`
