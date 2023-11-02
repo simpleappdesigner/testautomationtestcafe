@@ -4,3 +4,4 @@ tests
 *private*
 .vscode
 reports
+*.war
