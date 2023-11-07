@@ -20,3 +20,9 @@ Integraion with testcafe:
 1. install the dependency `npm install --save-dev @percy/cli @percy/testcafe`
 2. install testcafe `npm install --save-dev testcafe`
 3. excute percy - `npx percy exec -- testcafe chrome .\testcafe_integration\test_testcafe.js`
+
+
+***********git and GitHub************************
+1. `git remote add origingithub https://github.com/simpleappdesigner/testautomationtestcafe.git`
+2. verify with `git remote -v`
+3. git push to new branch: `git push -u origingithub HEAD:percyseleniumtestcafe`
